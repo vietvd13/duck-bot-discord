@@ -21,4 +21,4 @@ async def ping(ctx):
 async def chao(ctx):
     await ctx.send(f"Xin chào bạn vịt tên: {ctx.author.name}!")
 
-client.run('ODQ2NzQ5Njg5MDY3MzM5ODU2.YK0DGQ.CeceB9CYtSlWS6WZ0r4pyAiXJdU')
+client.run('ODQ2NzQ5Njg5MDY3MzM5ODU2.YK0DGQ.PJxU6ARD3mMU9SlOZMdq0VPqHqc')
