@@ -20,5 +20,9 @@ async def ping(ctx):
 @bot.command()
 async def chao(ctx):
     await ctx.send(f"Xin chào bạn vịt tên: {ctx.author.name}!")
-    
+
+for filename in os.listdir('./cogs'):
+    if filename.endswith(".py"):
+        bot.load_extension(f'cogs.{filename[:-3]}')
+
 bot.run('ODQ2NzQ5Njg5MDY3MzM5ODU2.YK0DGQ.PJxU6ARD3mMU9SlOZMdq0VPqHqc')
