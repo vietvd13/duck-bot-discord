@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord.ext.commands import bot
 import os
 
-bot = commands.Bot(command_prefix = "v ")
+bot = commands.Bot(command_prefix = "v")
 
 @bot.event
 async def on_ready():
