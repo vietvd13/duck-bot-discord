@@ -21,4 +21,4 @@ async def ping(ctx):
 async def chao(ctx):
     await ctx.send(f"Xin chào bạn vịt tên: {ctx.author.name}!")
     
-bot.run('ODQ2NzQ5Njg5MDY3MzM5ODU2.YK0DGQ.PJxU6ARD3mMU9SlOZMdq0VPqHqc')
+bot.run('YOUR TOKEN')
